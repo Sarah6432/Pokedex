@@ -1,0 +1,280 @@
+header{
+    padding: 70px;
+    align-items: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.pokemons {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.normal {
+    background-color: #a6a877;
+}
+
+.grass {
+    background-color: #77c850;
+}
+
+.fire {
+    background-color: #ee7f30;
+}
+
+.water {
+    background-color: #678fee;
+}
+
+.electric {
+    background-color: #f7cf2e;
+}
+
+.ice {
+    background-color: #98d5d7;
+}
+
+.ground {
+    background-color: #dfbf69;
+}
+
+.flying {
+    background-color: #a98ff0;
+}
+
+.poison {
+    background-color: #a040a0;
+}
+
+.fighting {
+    background-color: #bf3029;
+}
+
+.psychic {
+    background-color: #f65687;
+}
+
+.dark {
+    background-color: #725847;
+}
+
+.rock {
+    background-color: #b8a137;
+}
+
+.bug {
+    background-color: #a8b720;
+}
+
+.ghost {
+    background-color: #6e5896;
+}
+
+.steel {
+    background-color: #b9b7cf;
+}
+
+.dragon {
+    background-color: #6f38f6;
+}
+
+.fairy {
+    background-color: #f9aec7;
+}
+
+.pokemon {
+    display: flex;
+    margin: .5rem;
+    padding: 1rem;
+    margin: 0;
+}
+
+.pokemon .number {
+    color: #000000;
+    opacity: .3;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pokemon .name {
+        text-transform: capitalize;
+        color: #fff;
+        margin-bottom: .25rem;
+        font-weight: bolder;
+        font-size: 25px;
+}
+
+.pokemon .detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pokemon .detail .types {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.pokemon .detail .types .type {
+    color: #fff;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .725rem;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
+}
+.pokemon .detail img {
+    max-width: 100%;
+    height: 70px;
+}
+img {
+    width: 200px;
+    align-self: center;
+    float: left;
+    margin-left: 10%;
+}
+li {
+    list-style: none;
+    margin-left: 10px;
+}
+header span {
+    display: flex;
+    align-items: center; 
+}
+header {
+    display: flex;
+    align-items: center; 
+    
+}
+ .corpo{
+    background-color:#fff;
+    padding: 20px;
+}
+div span {
+    margin: 0 10px; 
+    cursor: pointer; 
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.nav-menu {
+    padding: 10px;
+}
+
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu ul li {
+    margin: 0 20px;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: #cececeb2;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-menu ul li a:hover {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+.conteudo{
+    margin: 0;
+    background-color: #98d5d7;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.conteudo2{
+    align-items: center;
+}
+.types .type {
+    color: #fff;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
+}
+.nav-menu ul li .sobre{
+    margin-left: 15%;
+}
+.nav-menu ul li .evolucao{
+ margin-left: 15%;
+}
+.titleStatus{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border-radius: 2rem 2rem 0 0; 
+    border: 1px solid #6c757d;
+    color: white;
+}
+.stat{
+    margin: 5%;
+    background-color: beige;
+    border-radius: 15%;
+    border: 1px solid #6c757d;
+}
+.num{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #6c757d;
+}
+.hp{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #6c757d;
+}
+.ataque{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #6c757d;
+}
+.defesa{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #6c757d;
+}
+.tipo{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #6c757d;
+}
+.tipos{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #6c757d;
+}
+.name{
+    text-transform: uppercase;
+}
+.hidden {
+    display: none;
+}
+.evol{
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        color:#6c757d;
+        text-transform: capitalize;
+}
